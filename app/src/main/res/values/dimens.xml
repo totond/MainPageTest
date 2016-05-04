@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="Mainpage_RecyclerView_item_name_textSize">17sp</dimen>
+    <dimen name="Mainpage_RecyclerView_item_address_textSize">12sp</dimen>
+    <dimen name="Mainpage_RecyclerView_item_lowerest_wholesale_textSize">12sp</dimen>
+    <dimen name="Mainpage_RecyclerView_item_lowerest_wholesale_number_textSize">12sp</dimen>
+    <dimen name="Mainpage_RecyclerView_item_price_textSize">17sp</dimen>
+    <dimen name="Mainpage_tab_menu_content_textSize">10sp</dimen>
+    <dimen name="Mainpage_SearchEditText_textSize">13sp</dimen>
+    <dimen name="Mainpage_top_recommend_textSize">13sp</dimen>
+</resources>

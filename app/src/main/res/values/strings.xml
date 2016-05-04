@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MainPageTest</string>
+    <string name="Mainpage_RecyclerView_item_name_default">物品名称</string>
+    <string name="Mainpage_RecyclerView_item_address_default">广东广州</string>
+    <string name="Mainpage_RecyclerView_item_lowerest_wholesale_default">最低批发量：</string>
+    <string name="Mainpage_RecyclerView_item_lowerest_wholesale_number_default">1001</string>
+    <string name="Mainpage_RecyclerView_item_price_default">￥111111</string>
+    <string name="Mainpage_SearchEditTexthint_default">搜索需要采购的物品</string>
+    <string name="Mainpage_top_recommend_text_default">物品推荐</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y73">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y53"
+        android:background="@color/colorLightRed"
+        android:layout_alignParentTop="true"
+        android:id="@+id/search">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y25"
+            android:layout_marginRight="@dimen/x12"
+            android:layout_marginLeft="@dimen/x12"
+            android:layout_marginTop="@dimen/y23"
+            android:layout_marginBottom="@dimen/y5"
+            android:background="@color/colorWhite"
+            >
+
+        <ImageView
+            android:layout_width="@dimen/x15"
+            android:layout_height="@dimen/y12"
+            android:background="@mipmap/search"
+            android:layout_marginLeft="@dimen/x7"
+            android:layout_centerVertical="true"
+            android:id="@+id/sear"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/Mainpage_SearchEditTexthint_default"
+            android:textSize="@dimen/Mainpage_SearchEditText_textSize"
+            android:layout_toRightOf="@+id/sear"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/x7"
+            android:textColor="@color/colorLightGray"
+            android:background="@color/colorWhite"
+            android:id="@+id/etSearch"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y19"
+        android:layout_below="@+id/search"
+        android:background="#f0f0f0">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Mainpage_top_recommend_text_default"
+            android:id="@+id/recommended"
+            android:textSize="13sp"
+            android:textColor="@color/colorGray"
+            android:layout_centerInParent="true"
+
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:background="@color/colorLightGray"
+        android:layout_alignParentBottom="true">
+    </RelativeLayout>
+
+</RelativeLayout>
