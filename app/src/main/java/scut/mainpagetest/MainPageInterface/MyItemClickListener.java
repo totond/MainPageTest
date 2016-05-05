@@ -1,4 +1,4 @@
-package scut.mainpagetest;
+package scut.mainpagetest.MainPageInterface;
 
 import android.view.View;
 

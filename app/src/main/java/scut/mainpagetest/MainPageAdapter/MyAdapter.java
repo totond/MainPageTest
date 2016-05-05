@@ -1,4 +1,4 @@
-package scut.mainpagetest;
+package scut.mainpagetest.MainPageAdapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -10,6 +10,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+
+import scut.mainpagetest.MainPageInterface.MyItemClickListener;
+import scut.mainpagetest.R;
 
 /**
  * Created by yany on 2016/4/11.
@@ -33,9 +36,9 @@ public class MyAdapter extends RecyclerView.Adapter {
 
         public Viewholder(View root) {
             super(root);
-            Title = (TextView) root.findViewById(R.id.Item_name);
-            Text = (TextView) root.findViewById(R.id.Item_address);
-            ima = (ImageView) root.findViewById(R.id.Item_picture);
+            Title = (TextView) root.findViewById(R.id.Mainpage_Recyclerview_Item_name);
+            Text = (TextView) root.findViewById(R.id.Mainpage_Recyclerview_Item_address);
+            ima = (ImageView) root.findViewById(R.id.Mainpage_Recyclerview_Item_picture);
             root.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

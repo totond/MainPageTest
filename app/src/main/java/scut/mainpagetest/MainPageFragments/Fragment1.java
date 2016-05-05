@@ -1,7 +1,7 @@
 /**
  * 
  */
-package scut.mainpagetest;
+package scut.mainpagetest.MainPageFragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -14,6 +14,10 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+
+import scut.mainpagetest.MainPageAdapter.MyAdapter;
+import scut.mainpagetest.MainPageInterface.MyItemClickListener;
+import scut.mainpagetest.R;
 
 
 public class Fragment1 extends Fragment implements MyItemClickListener {

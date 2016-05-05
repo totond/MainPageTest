@@ -1,4 +1,4 @@
-package scut.mainpagetest;
+package scut.mainpagetest.Model;
 
 import java.util.List;
 

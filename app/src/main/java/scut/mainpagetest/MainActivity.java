@@ -16,6 +16,12 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
+import scut.mainpagetest.MainPageAdapter.MyFragmentAdapter;
+import scut.mainpagetest.MainPageFragments.Fragment1;
+import scut.mainpagetest.MainPageFragments.Fragment2;
+import scut.mainpagetest.MainPageFragments.Fragment3;
+import scut.mainpagetest.MainPageFragments.Fragment4;
+
 public class MainActivity extends FragmentActivity implements
         ViewPager.OnPageChangeListener, TabHost.OnTabChangeListener {
 
